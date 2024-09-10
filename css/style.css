@@ -27,14 +27,6 @@ header{
     --boolando-sustainable: #008000;
     --boolando-footer: #1a1a1a;
 }
-
-.product {
-    position: relative;
-}
-
-.discount {
-    position: absolute;
-}
 /* end-utility */
 
 /* region debug */
@@ -47,6 +39,10 @@ header{
     justify-content: space-between;
     width: 70%;
 }
+/* debug main */
+.debug .product{
+}
+/* end-debug main */
 /* end-region debug */
 
 /* region header */
@@ -54,3 +50,18 @@ header{
     background-color: var(--boolando-header);
 }
 /* end-region header */
+
+/* region main */
+.product {
+    position: relative;
+}
+
+.discount {
+    position: absolute;
+}
+
+main{
+    width: 70%;
+    justify-content: space-between;
+}
+/* end-region main */
