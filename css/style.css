@@ -1,0 +1,42 @@
+/* common region */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* end-common region */
+
+/* utility */
+:root {
+    --boolando-header: #ff6900;
+    --boolando-discount: #ff0000;
+    --boolando-sustainable: #008000;
+    --boolando-footer: #1a1a1a;
+}
+
+.product {
+    position: relative;
+}
+
+.discount {
+    position: absolute;
+}
+/* end-utility */
+
+/* region debug */
+.debug * {
+    border: 1px dashed;
+}
+
+.debug #main-menu{
+    background-color: var(--boolando-header);
+    padding: 1rem;
+    justify-content: space-between;
+}
+/* end-region debug */
