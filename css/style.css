@@ -12,6 +12,7 @@ header{
 
 .container {
     display: flex;
+    justify-content: center;
 }
 
 .width{
@@ -59,9 +60,8 @@ header{
     position: absolute;
 }
 
-main {
+main{
     width: 70%;
-    justify-content: center;
 }
 
 img {
