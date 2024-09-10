@@ -5,11 +5,19 @@
     box-sizing: border-box;
 }
 
+header{
+    justify-content: center;
+    display: flex;
+}
+
 .container {
     display: flex;
     flex-wrap: wrap;
 }
 
+.width{
+    width: 70%;
+}
 /* end-common region */
 
 /* utility */
@@ -35,8 +43,14 @@
 }
 
 .debug #main-menu{
-    background-color: var(--boolando-header);
-    padding: 1rem;
+    padding: 2rem 0rem;
     justify-content: space-between;
+    width: 70%;
 }
 /* end-region debug */
+
+/* region header */
+#color-header{
+    background-color: var(--boolando-header);
+}
+/* end-region header */
