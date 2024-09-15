@@ -25,10 +25,9 @@ header{
 }
 
 .container {
-    display: flex;
-    justify-content: center;
     align-items: center;
     width: 70%;
+    justify-content: space-between;
 }
 
 .width{
@@ -63,6 +62,7 @@ header{
 .container {
     width: 70%;
     margin: auto;
+    justify-content: space-between;
 }
 /* end-utility */
 
@@ -109,6 +109,7 @@ a {
 
 .section-cards {
     margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 
 .discount {
@@ -153,6 +154,8 @@ img {
 
 .card {
     position: relative;
+    padding: 10px;
+    box-shadow: 0 0 10px #e0e0e0;
 }
 
 .top {
@@ -181,7 +184,7 @@ img {
 
 .card .like {
     position: absolute;
-    top: 0.25rem;
+    top: 1rem;
     right: 0;
     z-index: 1;
 }
@@ -198,3 +201,33 @@ img {
 }
 /* end-cards */
 /* end-region main */
+
+/* region footer */
+footer {
+    padding: 1rem 0;
+    background-color: var(--boolando-footer);
+    color: white;
+}
+
+h4,
+h5 {
+    margin-bottom: 0.5rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.company a {
+    padding-right: 0.5rem;
+}
+
+.socials a {
+    padding-left: 0.5rem;
+}
+
+#between-footer {
+    justify-content: space-between;
+}
+/* end-region footer */
